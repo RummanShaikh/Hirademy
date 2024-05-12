@@ -12,7 +12,7 @@ To run the application locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-git clone [https://github.com/your-username/assistant-management-system.git](https://github.com/RummanShaikh/Hirademy.git)
+git clone https://github.com/RummanShaikh/Hirademy.git
 
 
 2. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
