@@ -40,6 +40,10 @@ The following endpoints are available:
 - `PUT /assistants/{id}`: Update an existing assistant.
 - `DELETE /assistants/{id}`: Delete an assistant by ID.
 
+## Database Used
+
+The application uses a relational database to store assistant information. You can configure the database connection in `src/main/resources/application.properties` according to your setup.
+
 ## Error Handling
 
 The application handles errors gracefully and returns appropriate HTTP status codes with descriptive error messages. For example, when attempting to retrieve, update, or delete an assistant with a non-existent ID, the API returns a 404 (NOT_FOUND) status along with an error message.
